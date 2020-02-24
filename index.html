@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- favivon -->
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" />
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,500,600,700,800&display=swap" rel="stylesheet" />
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+	<!-- main css -->
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+
+	<title>Hot Gadget</title>
+</head>
+
+<body>
+	<!--==================== Header Area ====================-->
+	<header class="main-header-area ">
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+			<div class="container">
+				<div class="row row-width">
+					<!-- logo -->
+					<div class="col-xl-3 col-lg-3 col-md-3">
+						<div class="logo-area">
+							<a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+						</div>
+					</div>
+					<div class="col-xl-9 col-lg-9 col-md-9">
+						<!-- toggle menu -->
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+							aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<!-- main menu -->
+						<div class="collapse navbar-collapse right-menu" id="navbarNav">
+							<ul class="main-menu">
+								<li class="active">
+									<a href="#home">Home</a>
+								</li>
+								<li>
+									<a href="#product">Product</a>
+								</li>
+								<li>
+									<a href="#categories">categories</a>
+								</li>
+								<li>
+									<a href="#newsletter">Newsletter</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!--==================== Carousel Area ====================-->
+	<section class="hero-banner-area" id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<!-- single carousel item -->
+							<div class="carousel-item active">
+								<div class="row d-flex align-items-center">
+									<div class="col-xl-5 col-lg-5 col-md-5">
+										<div class="slider-content">
+											<h1>JBL speaker</h1>
+											<p>
+												Contrary to popular belief, Lorem Ipsum is not simply
+												random text. It has roots in a piece of classical
+												Latin literature.
+											</p>
+											<a href="#" class="black-btn">Buy Now
+												<img src="img/arrow-forward-outline.png" alt="arrow" /></a>
+										</div>
+									</div>
+									<div class="col-xl-7 col-lg-7 col-md-7">
+										<div class="carousel-img">
+											<img src="img/jbl-triangle.png" alt="triangle" />
+											<!--<div class="carousel-img-top ">
+												<img src="img/hero-banner/jbl.png" alt="jbl" />
+											</div>-->
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single carousel item -->
+							<div class="carousel-item">
+								<div class="row d-flex align-items-center">
+									<div class="col-xl-5 col-lg-5 col-md-5">
+										<div class="slider-content">
+											<h1>Mackbook Pro</h1>
+											<p>
+												Contrary to popular belief, Lorem Ipsum is not simply
+												random text. It has roots in a piece of classical
+												Latin literature.
+											</p>
+											<a href="#" class="black-btn">Buy Now
+												<img src="img/arrow-forward-outline.png" alt="arrow" /></a>
+										</div>
+									</div>
+									<div class="col-xl-7 col-lg-7 col-md-7">
+										<div class="carousel-img">
+											<img src="img/mac-triangle.png" alt="triangle" />
+											<!--<div class="carousel-img-top ">
+												<img src="img/hero-banner/macbook.png" alt="macbook" />
+											</div>-->
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single carousel item -->
+							<div class="carousel-item">
+								<div class="row d-flex align-items-center">
+									<div class="col-xl-5 col-lg-5 col-md-5">
+										<div class="slider-content">
+											<h1>google product</h1>
+											<p>
+												Contrary to popular belief, Lorem Ipsum is not simply
+												random text. It has roots in a piece of classical
+												Latin literature.
+											</p>
+											<a href="#" class="black-btn">Buy Now
+												<img src="img/arrow-forward-outline.png" alt="arrow" /></a>
+										</div>
+									</div>
+									<div class="col-xl-7 col-lg-7 col-md-7">
+										<div class="carousel-img">
+											<img src="img/google-triangle.png" alt="triangle" />
+											<!--<div class="carousel-img-top ">
+												<img src="img/hero-banner/voice.png" alt="voice" />
+											</div>-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- carousel indicator -->
+						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+							data-slide="prev">
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+							data-slide="next">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- dot shape -->
+		<div class="dot-shape">
+			<img src="img/dot.png" alt="dot" />
+		</div>
+	</section>
+	<!--==================== Smartphone List Area ====================-->
+	<section class="smartphone-list-area" id="product">
+		<div class="container">
+			<div class="row">
+				<!-- section top -->
+				<div class="col-xl-12">
+					<div class="product-heading-see-all">
+						<h2>smartphone</h2>
+						<a href="#"> see all</a>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-30">
+				<!-- single product list -->
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="#">
+								<img src="img/smartphone/2.png" alt="smartphone" />
+							</a>
+						</div>
+						<div class="product-content">
+							<a class="product-link" href="#">iPhone 11 pro</a>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit eos?
+							</p>
+						</div>
+						<div class="product-price">
+							<span>$999</span>
+						</div>
+						<div class="product-buy">
+							<a href="#" class="black-btn">Buy Now <img src="img/arrow-forward-outline.png"
+									alt="arrow" /></a>
+						</div>
+					</div>
+				</div>
+				<!-- single product list -->
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="#">
+								<img src="img/smartphone/3.png" alt="smartphone" />
+							</a>
+						</div>
+						<div class="product-content">
+							<a class="product-link" href="#">samsung galaxy 10+</a>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit eos?
+							</p>
+						</div>
+						<div class="product-price">
+							<span>$870</span>
+						</div>
+						<div class="product-buy">
+							<a href="#" class="black-btn">Buy Now <img src="img/arrow-forward-outline.png"
+									alt="arrow" /></a>
+						</div>
+					</div>
+				</div>
+				<!-- single product list -->
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="#">
+								<img src="img/smartphone/1.png" alt="smartphone" />
+							</a>
+						</div>
+						<div class="product-content">
+							<a class="product-link" href="#">redmi not 8 pro</a>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit eos?
+							</p>
+						</div>
+						<div class="product-price">
+							<span>$275</span>
+						</div>
+						<div class="product-buy">
+							<a href="#" class="black-btn">Buy Now <img src="img/arrow-forward-outline.png"
+									alt="arrow" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--==================== Laptop List Area ====================-->
+	<section class="laptop-list-area">
+		<div class="container">
+			<div class="row">
+				<!-- section top -->
+				<div class="col-xl-12">
+					<div class="product-heading-see-all">
+						<h2>laptop</h2>
+						<a href="#"> see all</a>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-30">
+				<!-- single product list -->
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="#">
+								<img src="img/laptop/1.png" alt="laptop" />
+							</a>
+						</div>
+						<div class="product-content">
+							<a class="product-link" href="#">asus vivoBook</a>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit eos?
+							</p>
+						</div>
+						<div class="product-price">
+							<span>$999</span>
+						</div>
+						<div class="product-buy">
+							<a href="#" class="black-btn">Buy Now <img src="img/arrow-forward-outline.png"
+									alt="arrow" /></a>
+						</div>
+					</div>
+				</div>
+				<!-- single product list -->
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="#">
+								<img src="img/laptop/2.png" alt="laptop" />
+							</a>
+						</div>
+						<div class="product-content">
+							<a class="product-link" href="#">razer blade 15</a>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit eos?
+							</p>
+						</div>
+						<div class="product-price">
+							<span>$2750</span>
+						</div>
+						<div class="product-buy">
+							<a href="#" class="black-btn">Buy Now <img src="img/arrow-forward-outline.png"
+									alt="arrow" /></a>
+						</div>
+					</div>
+				</div>
+				<!-- single product list -->
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="#">
+								<img src="img/laptop/3.png" alt="laptop" />
+							</a>
+						</div>
+						<div class="product-content">
+							<a class="product-link" href="#">xiaomi mi notebook</a>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit eos?
+							</p>
+						</div>
+						<div class="product-price">
+							<span>$999</span>
+						</div>
+						<div class="product-buy">
+							<a href="#" class="black-btn">Buy Now <img src="img/arrow-forward-outline.png"
+									alt="arrow" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--==================== Categories Area ====================-->
+	<section class="categories-area" id="categories">
+		<div class="container">
+			<!-- section top -->
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="section-title">
+						<h2>categories</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-45">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<!-- categories -->
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex align-items-center">
+							<div class="single-categories border-rad-style-2">
+								<img src="img/categories/2.png" alt="" />
+								<a href="#">bag</a>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+							<div class="row">
+								<div class="col-xl-12">
+									<div class="single-categories border-rad-style-1">
+										<img src="img/categories/1.png" alt="" />
+										<a href="#">beauty</a>
+									</div>
+								</div>
+								<div class="col-xl-12">
+									<div class="single-categories border-rad-style-1">
+										<img src="img/categories/3.png" alt="" />
+										<a href="#">shoes</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- categories image -->
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
+					<div class="categorie-big-img">
+						<img src="img/pale-order-completed.png" alt="pale-order-completed" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--==================== Newsletter Area ====================-->
+	<section class="newsletter-area" id="newsletter">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<!-- newsletter content -->
+					<div class="newsletter-box">
+						<h3>10% Member Discount</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur elit molestias, ab odio
+							nam debitis delectus!
+						</p>
+						<!-- newsletter form -->
+						<form action="#" method="post" target="_blank" class="subscible-form">
+							<div class="form-group">
+								<input class="form-control" type="email" value="" placeholder="Enter your email.."
+									name="EMAIL" id="mail" autocorrect="off" autocapitalize="off" />
+							</div>
+							<div class="form-submit">
+								<input type="submit" name="subscribe" id="subscribe" value="Subscribe" />
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- ++++++++++++++++++++ MARKUP END +++++++++++++++++ -->
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<!-- bootstrap js -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
